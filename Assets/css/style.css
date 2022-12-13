@@ -1,0 +1,42 @@
+.parrafo{
+  text-align: center;
+}
+
+#caja{
+  width: 30%;
+  position: relative;
+  left: 35%;
+}
+
+
+
+#icono{
+  width: 25px;
+  height: 15%;
+  margin-top: 1.9%;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+#main-btn{
+  border-color: deepskyblue;
+  color:deepskyblue;
+  background-color: transparent;
+  padding: 5px;
+  font-size: medium;
+  margin-top: 2%;
+  border-style: solid;
+}
+
+#icono-2{
+  width: 15px;
+  margin-right: 5px;
+}

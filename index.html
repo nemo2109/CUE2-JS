@@ -8,15 +8,22 @@
   <title>Block de notas</title>
 </head>
 <body>
-  <header>
-    <h1>My notes</h1>
+  <header id="header">
+    <div class="header">
+      <img src="./Assets/img/clipboard.png" id="icono">
+      <h1 id="titulo">MiNotes</h1>
+    </div>
   </header>
 
   <main id="menu">
     <section id="contenido-1">
-      <p>My Notes es una simple Web App que nos permite guardar notas de manera facil y practica, incluyendo la habilidad de guardar tus notas con fecha. Todo esto es posible con las capacidades de JavaScript</p>
+      <div id="caja">
+        <p class="parrafo">My Notes es una simple Web App que nos permite guardar notas de manera facil y practica, incluyendo la habilidad de guardar tus notas con fecha. Todo esto es posible con las capacidades de JavaScript</p>
+      </div>
 
-      <button type="button" id="main-btn">Escribir Nota</button> 
+      <div class="button">
+        <button type="button" id="main-btn"><img src="./Assets/img/editar.png" id="icono-2">Escribir Nota</button> 
+      </div>
     </section>
     <section id="contenido-2">
       <article id="cont-notas">
