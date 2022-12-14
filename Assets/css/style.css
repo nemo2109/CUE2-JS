@@ -8,8 +8,6 @@
   left: 35%;
 }
 
-
-
 #icono{
   width: 25px;
   height: 15%;
@@ -39,4 +37,53 @@
 #icono-2{
   width: 15px;
   margin-right: 5px;
+} 
+
+/* Estilos en la forma */
+
+#borrar-nota{
+   border-color: red;
+   color: white;
+   background-color: red;
+   border-radius: 5px;
+   width: 10%;
+   font-size:large;
+   
 }
+
+.borrar{
+  width: 22px;
+}
+
+#agregar-nota{
+  border-style: 1px;
+  font-size: medium;
+  width: 10%;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.fecha{
+  width: 15px;
+}
+
+#contenido-btns{
+  display: flex;
+  justify-content: center;
+}
+
+.contenido-forma{
+  display: flex;
+  justify-content: center;
+}
+
+#titulo, #nota, #fecha{
+  margin-right: 5px;
+  margin-bottom: 55px;
+}
+
+body{
+  background-color: #dedede;
+}
+
+

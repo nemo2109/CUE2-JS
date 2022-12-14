@@ -78,14 +78,18 @@ main.addEventListener('click', (e) => {
 const agregarNota = document.createElement('div');
 agregarNota.innerHTML = `
 <form id="main-form">
-    <input type="text" name="titulo" id="titulo" placeholder="Agregar titulo">
+  <div class="contenido-forma">
+    <input type="text" name="titulo" id="titulo"    placeholder="Agregar titulo">
     <input type="text" name="nota" id="nota" placeholder="Agregar tu nota">
     <input type="text" name="fecha" id="fecha" placeholder="Agregar la fecha de tu nota">
+  </div>
+    
+  <div id="contenido-btns">
+    <button type="button" id="borrar-nota"><img src="./Assets/img/cubo-de-la-basura.png" class="borrar">Borrar nota</button>
 
-
-    <button type="button" id="borrar-nota">Borrar nota</button>
-    <button type="submit" id="agregar-nota">Agregar nota</button>
-  </form>
+    <button type="submit" id="agregar-nota"><img src="./Assets/img/calendario.png" class="fecha">Agregar nota</button>
+  </div>
+</form>
   `;
 
   // Funcion para agregar html dinamico en base a los resultados de la forma
